@@ -1,0 +1,16 @@
+[project]
+name = "dashboard-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.4.1",
+    "marimo>=0.20.4",
+    "plotly>=6.0.0",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "polars>=1.38.1",
+    "kaleido==1.0.0",
+    "typst==0.14.8",
+]

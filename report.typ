@@ -14,6 +14,17 @@
 )
 
 // ══════════════════════════════════════════════════════════════════════════════
+// EXECUTIVE SUMMARY  ← ADD USER COPY HERE
+// ══════════════════════════════════════════════════════════════════════════════
+
+#note-block(title: "Executive Summary  ·  [ ADD COPY HERE ]")[
+  _Replace this placeholder with your executive summary. Describe the report's
+  purpose, the time period covered, and the top-level story the data tells._
+]
+
+#v(1.6em)
+
+// ══════════════════════════════════════════════════════════════════════════════
 // SECTION 01 – GEOGRAPHIC OVERVIEW
 // ══════════════════════════════════════════════════════════════════════════════
 
@@ -38,6 +49,15 @@
   gutter: 10pt,
   ..kpi-data.map(((label, value, accent)) => kpi-card(label, value, accent))
 )
+
+#v(1.2em)
+
+// ── Geographic Insights  ← ADD USER COPY HERE ─────────────────────────────
+#note-block(title: "Geographic Insights  ·  [ ADD COPY HERE ]")[
+  _Replace this placeholder with analyst commentary on the geographic
+  distribution shown above. Highlight notable states, regional clusters,
+  or income-disparity trends worth calling out to the reader._
+]
 
 // ══════════════════════════════════════════════════════════════════════════════
 // SECTION 02 – SECTOR & STATE ANALYTICS
@@ -81,10 +101,41 @@
 
 #v(1.4em)
 
+// ── Sector Commentary  ← ADD USER COPY HERE ───────────────────────────────
+#note-block(title: "Sector Commentary  ·  [ ADD COPY HERE ]")[
+  _Replace this placeholder with analyst commentary on the revenue-index
+  trends and the innovation-vs-GDP scatter. Call out leading sectors,
+  outlier states, and any correlations the charts surface._
+]
+
+#v(1.2em)
+
 #note-block(title: "Data Methodology")[
   All data in this report is synthetically generated using DuckDB deterministic
   arithmetic on state row-numbers. Values are designed to produce plausible
   distributions without representing real-world measurements. Sector revenue
   indices follow linear trend models with periodic noise. State-level indicators
   use fixed modular arithmetic to ensure reproducibility across runs.
+]
+
+#v(1.4em)
+
+// ══════════════════════════════════════════════════════════════════════════════
+// KEY FINDINGS & CONCLUSIONS  ← ADD USER COPY HERE
+// ══════════════════════════════════════════════════════════════════════════════
+
+#section-label("03", "Key Findings & Conclusions")
+
+#note-block(title: "Key Findings  ·  [ ADD COPY HERE ]")[
+  _Replace this placeholder with your top findings. Use a bulleted list or
+  short paragraphs to summarise the most important takeaways from Sections 01
+  and 02._
+]
+
+#v(1.2em)
+
+#note-block(title: "Recommendations / Next Steps  ·  [ ADD COPY HERE ]")[
+  _Replace this placeholder with recommendations or next steps based on the
+  data presented. Describe any actions, follow-up analyses, or decisions this
+  report is intended to support._
 ]
